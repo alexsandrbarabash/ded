@@ -1,9 +1,10 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
-x0 = - 10 * np.pi / 2
-x1 = 10 * np.pi / 2
-step = .01
+x0 = float(input('Add x0:'))
+x1 = float(input('Add x1:'))
+step = float(input('Add step:'))
+
 
 x = np.arange(x0, x1, step)
 
